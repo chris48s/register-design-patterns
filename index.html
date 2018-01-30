@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title> | Register design patterns</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Register design patterns">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/register-design-patterns/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:image" content="/register-design-patterns/assets/og-image-8e75403b7a4d3145675683c5982439d735569485af67e282cf58677e8e0fe863.jpg">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="/register-design-patterns/">
+  <meta name="twitter:title" content="Register design patterns">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="/register-design-patterns/assets/og-image-8e75403b7a4d3145675683c5982439d735569485af67e282cf58677e8e0fe863.jpg">
+
+  <link rel="apple-touch-icon" href="/register-design-patterns/assets/apple-touch-icon-b03c43a121e0d076f4ab34499c54afe07a08699932dcfa4b4e9a302e51ace598.png">
+
+  <link rel="stylesheet" type="text/css" href="/register-design-patterns/assets/application-6899c37d89cf1a172661258e6f80a54bcf2c254c4212e9279833708ea226243b.css">
+</head>
+
+<body>
+
+<div class="container-md px-3 my-5 markdown-body">
+      
+      <h1><a href="/register-design-patterns/">Register design patters</a></h1>
+      
+
+      <h1 id="intro-to-design-patterns">Intro to design patterns</h1>
+<p>This site is designed to list types of “list” and patterns for maintaining them.</p>
+<p>The term list is used to mean a list of <em>things</em> that is kept for some reason. It’s an intentionally vague term, partly because there isn’t a single term that can describe everything we want to and partly because “database”, “register”, “code list” and other terms all have specific meanings to some people.</p>
+<p>It follows a report about collaborative registers written for <a href="https://theodi.org/">The ODI</a> by <a href="http://openhealthcare.org.uk/">Open Health Care</a> and <a href="https://democracyclub.org.uk">Democracy Club</a>.</p>
+<h2 id="properties-of-lists">Properties of lists</h2>
+In the report we tried to enumerate interesting properties of registers. We defined a list of terms that could be applied to any
+<ul>
+<li>
+<h3>
+<a href="/register-design-patterns/list_properties/accuracy/">Accuracy</a>
+</h3>
+<p>
+A list may be entirely accurate or have some known errors, or have some elements where the provenance and accuracy are unknown.
+</p>
+</li>
+<li>
+<h3>
+<a href="/register-design-patterns/list_properties/authority/">Authority</a>
+</h3>
+<p>
+How completeness and accuracy can be asserted
+</p>
+</li>
+<li>
+<h3>
+<a href="/register-design-patterns/list_properties/completeness/">Completeness</a>
+</h3>
+<p>
+A list may be either complete or incomplete. A list may be incomplete because it does not contain all the entities that should be on the list It may also be incomplete because it does not contain all of the pieces of information about each entity.
+</p>
+</li>
+<li>
+<h3>
+<a href="/register-design-patterns/list_properties/relation-to-reality/">Relation to reality</a>
+</h3>
+<p>
+By being on the register of children in class 1B, a child becomes a member of class 1B.
+</p>
+</li>
+</ul>
+<h2 id="governance-patterns">Governance patterns</h2>
+<p>Understanding governance systems is critical to the trustworthiness of a list, yet they are often not explained well.</p>
+<p>For instance, registers that have a strong authority (<a href="https://country.register.gov.uk/">Foreign and Commonwealth Office’s register of countries recognised by the UK</a>) have an obfuscated governance model. The custodian is named, but how that person makes decisions about the register is unknown.</p>
+<p>Particularly for lists which are designed as data infrastructure (called ‘registers’ in the UK government context) due to the social, environmental or economic value of their contents, explaining the governance process should be considered a minimum requirement.</p>
+<p>Similarly those processes must be both transparent and open.</p>
+<p>It’s possible that organisational boundaries or systems aren’t a helpful way to think about governance or collaboration with others.</p>
+<p>For example, a list of shops maintained by a company could be wrong because the team who publishes the list doesn’t talk to the team in charge of opening and closing new stores. If each store manager can set their own opening times then it’s unlikely any one person within the organisation will be able to confidently publish a list of all the opening times.</p>
+<p>We have tried to define a set of patterns that we think are worth considering when creating or maintaining lists.</p>
+<ul>
+<li>
+<h3>
+<a href="/register-design-patterns/governance_patterns/error_reporting/">Error Reporting</a>
+</h3>
+<p>
+Anyone can report and error to a person, organisation or through a process.
+</p>
+</li>
+<li>
+<h3>
+<a href="/register-design-patterns/governance_patterns/external_changes/">External changes</a>
+</h3>
+<p>
+3rd parties can change a register that they have no governance over
+</p>
+</li>
+<li>
+<h3>
+<a href="/register-design-patterns/governance_patterns/post_moderation/">Post-moderation</a>
+</h3>
+<p>
+The ability to do the work of making a change and submit it to the governance system
+</p>
+</li>
+<li>
+<h3>
+<a href="/register-design-patterns/governance_patterns/suggested_edits/">Suggested edits</a>
+</h3>
+<p>
+The ability to do the work of making a change and submit it to the governance system
+</p>
+</li>
+</ul>
+
+      <div class="footer border-top border-gray-light mt-6 pt-5 text-right text-gray">
+        <p>This site is open source and operates on a
+                <a href="/register-design-patterns/governance_patterns/suggested_edits/">
+                  suggested edit governance model</a>. </p>
+
+          <p><a href="https://github.com/democracyclub/register-design-patterns/blob/master/index.md">
+            Edit this page on GitHub</a></p>
+      </div>
+    </div>
+
+    
+</body>
+
+</html>
